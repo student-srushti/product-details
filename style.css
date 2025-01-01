@@ -1,0 +1,36 @@
+body{
+  background-color:rgb(147, 7, 147);
+}
+h2{
+  color: white;
+  text-align: center;
+}
+.info {
+    display: none;
+  }
+  .product {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color:plum;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .product label {
+    font-weight: bold;
+  }
+  .product div {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: rgb(254, 204, 254);
+    cursor: pointer;
+  }
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  p {
+    margin: 5px 0;
+  }
